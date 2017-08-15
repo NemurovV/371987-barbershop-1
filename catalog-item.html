@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+  </head>
+  <body>
+    <header class="main-header">
+        <nav class="main-navigation">
+          <a class="logo-header-index" href="index.html">
+            <img src="img/logo.jpg" alt="">
+          </a>
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li class="site-navigation-current">
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li >
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="user-navigation">
+          <li>
+            <a href="#">Вход</a>
+          </li>
+        </ul>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Прайс-лист</h1>
+
+      <ul class="breadcrumbs">
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li class="breadcrumbs-current">
+          Прайс-лист
+        </li>
+      </ul>
+
+      <p>Истинно мужская классика</p>
+
+      <section class="presentation-brand">
+        <h2>Мы используем только лучшие средства:</h2>
+        <ul>
+          <li>
+            Baxter of California
+          </li>
+          <li>
+            Mr Natty
+          </li>
+          <li>
+            Suavecito
+          </li>
+          <li>
+            Malin+Goetz
+          </li>
+        </ul>
+      </section>
+
+      <section class="prices-services">
+        <h2>Цены на услуги наших мастеров:</h2>
+        <table>
+          <tr>
+            <td>Стрижка</td>
+            <td>1500 р</td>
+          </tr>
+          <tr>
+            <td>Стрижка бороды</td>
+            <td>500 р</td>
+          </tr>
+          <tr>
+            <td>Накрутка усов</td>
+            <td>350 р</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="">
+        <h2>Несколько слов о нас:</h2>
+        <p>
+          Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем
+        </p>
+
+        <p>
+          Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+        </p>
+
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p class="footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="map.html">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
+    </footer>
+
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p>Введите свой логин и пароль.</p>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <input class="login-icon-user" type="text" name="login" placeholder="Логин">
+        </p>
+        <p>
+          <input class="login-icon-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p class="login-password-info">
+          <input type="checkbox" name="remember" class="visually-hidden">
+          Запомните меня
+          <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+      </form>
+      <span class="modal-close">x</span>
+    </section>
+
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <span class="modal-close">x</span>
+    </section>
+  </body>
+</html>
